@@ -20,6 +20,21 @@
         <version>2.4.5</version>
     </parent>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>fr.auchanretailfrance</groupId>
+                <artifactId>technical-test-api</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>fr.auchanretailfrance</groupId>
+                <artifactId>technical-test-renderer</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <build>
         <plugins>
             <plugin>
